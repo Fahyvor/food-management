@@ -3,9 +3,9 @@ import React from 'react'
 
 const Welcome = () => {
   return (
-    <div className='h-screen flex flex-col justify-between'>
+    <div className='h-screen flex flex-col justify-around'>
         <div className='welcome-header'>
-            <h1 className='text-3xl mt-9 font-bold pb-6
+            <h1 className='text-3xl mt-9 font-bold pb-6 max-sm:pb-1 
             text-center'>Welcome to the Food Management Portal</h1>
         </div>
 

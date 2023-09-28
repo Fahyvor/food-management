@@ -1,14 +1,11 @@
 import React, { useState } from 'react'
 import './homepage.css'
-// import { AiOutlineBars } from 'react-icons/ai'
-// import { BsFillPhoneVibrateFill } from 'react-icons/bs'
-// import { MdPhoneInTalk, MdEmail } from 'react-icons/md'
 import HomeImage from '../assets/bodyImage.jpeg'
 
 const Homepage = () => {
-    // const [show, setShow] = useState(false);
   return (
-    <div className='homepage w-full h-screen bg-black flex flex-col pb-5 border-solid
+    <div className='homepage w-full
+    bg-black flex flex-col pb-5 border-solid
     border-slate-50'>
         <div className='home-nav text-white max-sm:flex-col
         max-sm:items-center flex justify-between px-5 py-3'>
