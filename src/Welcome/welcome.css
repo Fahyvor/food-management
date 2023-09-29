@@ -1,0 +1,8 @@
+.welcome-container {
+    background-image: url('../assets/bodyImage.jpeg');
+    /* background-repeat: no-repeat; */
+}
+
+.welcome-shadow {
+    background-color: rgba(0,0,0,0.9);
+}

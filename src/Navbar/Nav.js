@@ -8,7 +8,7 @@ const Nav = () => {
     <div className='p-3'>
       <FaBars size={45}  onClick={() => setShow(true)}/>
     {show ? (<div className='homepage-nav 
-    bg-white py-2 w-full gap-9 flex
+    bg-amber-600 py-2 w-full gap-9 flex
     bg-white absolute items-center
     flex-col justify-center'>
             <a href='/' className='w-1/5 font-bold

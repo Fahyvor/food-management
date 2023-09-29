@@ -1,9 +1,11 @@
-
 import React from 'react'
+import './welcome.css'
 
 const Welcome = () => {
   return (
-    <div className='h-screen flex flex-col justify-around'>
+    <div className='flex flex-col welcome-container justify-around'>
+        <div className='welcome-shadow pb-9 max-sm:h-screen
+        h-screen text-white'>
         <div className='welcome-header'>
             <h1 className='text-3xl mt-9 font-bold pb-6 max-sm:pb-1 
             text-center'>Welcome to the Food Management Portal</h1>
@@ -28,6 +30,7 @@ const Welcome = () => {
 
         <div className='welcome-footer text-center mt-4'>
             <small>&copy; Food Management</small>
+        </div>
         </div>
     </div>
   )
