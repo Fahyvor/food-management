@@ -5,7 +5,7 @@ const Nav = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className='p-3 w-full'>
+    <div className='p-3 w-full hidden max-sm:flex'>
       <FaBars size={45}  onClick={() => setShow(true)}/>
     {show ? (<div className='homepage-nav 
     bg-amber-600 py-2 w-full px-3 gap-9 flex

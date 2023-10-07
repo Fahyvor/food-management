@@ -10,9 +10,9 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path='/home' element={<Homepage />} />
+        <Route path='/' element={<Homepage />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/' element={<Welcome />} />
+        <Route path='/pre-home' element={<Welcome />} />
         <Route path='/register' element={<Register />} />
       </Routes>
     </Router>

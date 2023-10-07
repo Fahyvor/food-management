@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <div className='homepage w-full
     bg-black flex flex-col pb-5 border-solid
-    border-slate-50'>
+    border-slate-50 pb-8'>
         <div className='home-nav text-white max-sm:flex-col
         max-sm:items-center flex justify-between px-5 py-3'>
             <div className='days'>
@@ -30,12 +30,12 @@ const Homepage = () => {
                 <div className='right-button flex gap-3'>
                     <div className='button-right bg-amber-600
                     font-bold py-2 rounded-xl px-9'>
-                        <a href='/login'>Login</a>
+                        <a href='/pre-home'>Login</a>
                     </div>
 
                     <div className='button-right
                     font-bold py-2 rounded-xl px-9'>
-                        <a href='/register'>Register</a>
+                        <a href='/pre-home'>Register</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ const Homepage = () => {
         </div>
 
         <div className='home-footer text-center
-        bg-slate-50 mt-8 py-4 text-amber-600 font-bold'>
+        bg-slate-50 mt-8 py-4 text-amber-600 mt-12 font-bold'>
             <p>&copy; 2023 Tasty Foods</p>
         </div>
     </div>

@@ -6,7 +6,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    navigate('/home')
+    navigate('/')
   }
   return (
     <div className='flex flex-col w-full

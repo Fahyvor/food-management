@@ -7,7 +7,7 @@ const Register = () => {
 
     const handleRegister = (e) => {
         e.preventDefault();
-        navigate('/home')
+        navigate('/')
     }
   return (
     <div className='flex flex-col w-full
