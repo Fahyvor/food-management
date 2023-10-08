@@ -22,7 +22,7 @@ const Homepage = () => {
             px-5 py-5 text-center flex flex-col items-center gap-5 justify-center'>
                 <h1 className='font-bold
                 text-4xl'>Welcome to Our</h1>
-                <h1 className='text-2xl font-bold'>Our Tasty Foods</h1>
+                <h1 className='text-2xl font-bold'>Food Management System</h1>
                 <p className='w-2/3'>Without food, we cannot survive, and that is why
                     issues that effect the food industry are so important.
                 </p>
